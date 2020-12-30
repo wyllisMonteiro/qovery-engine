@@ -23,6 +23,55 @@ body {
     color: white;
 }
 
+/*****************************************************************************************
+|
+|   Common class
+|
+******************************************************************************************/
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 16px 9px 16px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 3px;
+    font-family: "SFUITextMedium", Helvetica, sans-serif;
+}
+
+.btn-dark {
+    background: #454658;
+    color: white;
+}
+
+.btn-purple {
+    background: #6578C0;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: "HKGroteskRegular", Helvetica, sans-serif;
+}
+
+.large_container {
+    max-width: 1125px;
+}
+
+.medium_container {
+    max-width: 853px;
+}
+
+/*****************************************************************************************
+|
+|   First section
+|
+******************************************************************************************/
+
 .main_section {
     width: 100%;
     background: #151B2B;
@@ -123,32 +172,35 @@ body {
     margin-right: 5px;
 }
 
-.btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 9px 16px 9px 16px;
-    color: black;
-    text-decoration: none;
-    background-color: white;
-    border-radius: 3px;
+/*****************************************************************************************
+|
+|   How does it work section
+|
+******************************************************************************************/
+
+.use_section {
+    background-color: #F9F9FD;
+    padding: 135px 0 128px 0;
+}
+
+.how_part {
+    margin-bottom: 128px;
+}
+
+.use_section h3 {
+    font-family: "HKGroteskBlack", Helvetica, sans-serif;
+    color: #454658;
+    font-size: 32px;
+    text-align: center;
+    margin: 0 0 17px 0;
+}
+
+.use_section p {
     font-family: "SFUITextMedium", Helvetica, sans-serif;
-}
-
-.btn-dark {
-    background: #454658;
-    color: white;
-}
-
-.btn-purple {
-    background: #6578C0;
-    color: white;
-}
-
-.container {
-    width: 100%;
-    max-width: 1125px;
-    height: 100%;
-    margin: 0 auto;
-    font-family: "HKGroteskRegular", Helvetica, sans-serif;
-}
+    color: #454658;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    max-width: 837px;
+    margin: 0 0 32px 0;
+} 
