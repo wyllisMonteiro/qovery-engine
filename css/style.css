@@ -18,9 +18,18 @@
     src: url("../fonts/SFUIText-Regular.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "SFUITextBold";
+    src: url("../fonts/SFUIText-Bold.ttf") format("truetype");
+}
+
 body {
     margin: 0;
     color: white;
+}
+
+pre {
+    margin: 0;
 }
 
 /*****************************************************************************************
@@ -159,16 +168,16 @@ body {
     line-height: 24px;
 }
 
-.main_section .row-btn {
+.main_section .row_btn {
     display: flex;
     margin-top: 30px;
 }
 
-.main_section .row-btn .btn:first-of-type {
+.main_section .row_btn .btn:first-of-type {
     margin-right: 25px;
 }
 
-.main_section .row-btn .btn i {
+.main_section .row_btn .btn i {
     margin-right: 5px;
 }
 
@@ -203,4 +212,67 @@ body {
     line-height: 24px;
     max-width: 837px;
     margin: 0 0 32px 0;
-} 
+}
+
+.usage_part {
+    position: relative;
+}
+
+.usage_part img {
+    position: absolute;
+    right: 0;
+    top: -72px;
+}
+
+.usage_part h3, p {
+    z-index: 1;
+    position: relative;
+}
+
+.container_code {
+    z-index: 1;
+    position: relative;
+    background-color: white;
+    padding: 24px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+    margin-bottom: 50px;
+}
+
+.usage_part .language_name {
+    background: #5D64D2;
+    border-radius: 3px;
+    padding: 4px 8px;
+    color: white;
+    width: 50px;
+    line-height: 26px;
+    font-family: "SFUITextBold", Helvetica, sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+.usage_part .rust {
+    position: relative;
+    background: transparent;
+    left: -64px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.usage_part .row_btn {
+    display: flex;
+    width: 520px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.usage_part .row_btn .btn:first-of-type {
+    margin-right: 25px;
+}
+
+.usage_part .row_btn .btn i {
+    margin-right: 5px;
+}

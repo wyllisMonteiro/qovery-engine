@@ -6,6 +6,7 @@
     <title>Qovery Engine - Homepage</title>
     <script src="https://kit.fontawesome.com/9c6b0f0149.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./node_modules/highlightjs/styles/a11y-light.css">
 </head>
 <body>
     <section class="main_section">
@@ -35,7 +36,7 @@
                         that turns easy apps deployment on AWS, GCP, Azure 
                         and others Cloud providers.
                     </p>
-                    <div class="row-btn">
+                    <div class="row_btn">
                         <a class="btn btn-dark" href="#"><i class="fab fa-github"></i>See on Github</a>
                         <a class="btn btn-purple" href="#"><i class="fab fa-discord"></i>Join us on Discord</a>
                     </div>
@@ -61,10 +62,21 @@
             </div>
 
             <div class="usage_part">
+                <img src="./images/usage_bg.png" alt="">
                 <h3>Usage</h3>
                 <p>
                     Initialize EKS (AWS Kubernetes) and ECR (AWS container registry) on AWS
                 </p>
+
+                <div class="container_code" id="container_code">
+                    <p class="language_name">RUST</p>
+                    <pre><code id="rust" class="rust"></code></pre>
+                </div>
+
+                <div class="row_btn">
+                    <a class="btn btn-dark" href="#"><i class="fab fa-github"></i>See on Github</a>
+                    <a class="btn btn-purple" href="#"><i class="fab fa-discord"></i>Join us on Discord</a>
+                </div>
             </div>
         </div>
 
@@ -72,5 +84,7 @@
 
         </div>
     </section>
+
+    <script src="dist/js/bundle.js"></script>
 </body>
 </html>
