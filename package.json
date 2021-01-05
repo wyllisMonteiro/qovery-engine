@@ -1,0 +1,27 @@
+{
+  "name": "qovery-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "browserify": "^17.0.0",
+    "highlightjs": "^9.16.2",
+    "watchify": "^3.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "watch": "watchify js/main.js -o dist/js/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyllisMonteiro/qovery-engine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wyllisMonteiro/qovery-engine/issues"
+  },
+  "homepage": "https://github.com/wyllisMonteiro/qovery-engine#readme"
+}
