@@ -279,7 +279,50 @@ pre {
 
 /*****************************************************************************************
 |
-|   How does it work section
+|   usage details section
+|
+******************************************************************************************/
+
+.usages {
+    display: grid;
+    grid-template-columns: 428px 428px;
+    grid-template-rows: max-content max-content;
+    justify-content: space-between;
+}
+
+.usages h3 {
+    font-family: "HKGroteskMedium", Helvetica, sans-serif;
+    font-size: 24px;
+    color: #454658;
+    margin: 24px 0;
+}
+
+.usages p {
+    font-size: 16px;
+    color: #454658;
+    font-family: "SFUITextMedium", Helvetica, sans-serif;
+    line-height: 24px;
+    margin: 0 0 6px 0;
+}
+
+.usages .link {
+    font-family: "SFUITextBold", Helvetica, sans-serif;
+    color: #5D64D2;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.usage_1 {
+    margin-bottom: 108px;
+}
+
+.usage_2 img {
+    height: 159px;
+}
+
+/*****************************************************************************************
+|
+|   footer
 |
 ******************************************************************************************/
 
